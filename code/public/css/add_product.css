@@ -1,0 +1,264 @@
+.add-title {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.add-title h1 {
+    font-weight: bold;
+}
+
+.add-main-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Form style */
+label {
+    font-weight: bold;
+}
+.add-form {
+    background-color: #f0f0f0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 95%;
+    border-radius: 15px;
+}
+
+form {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.form-select {
+    border-radius: 10px;
+}
+
+.description {
+    height: 118px;
+}
+
+.custom-file-label {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #fff;
+    width: auto;
+}
+
+.icon-wrapper img {
+    height: 80px;
+}
+
+.custom-file-input {
+    display: none;
+}
+
+#imagePreviewContainer div {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+#imagePreviewContainer img {
+    border-radius: 15px;
+}
+
+#imagePreviewContainer button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Form style */
+
+/* Schedule and buttons style */
+.add-schedule-and-button {
+    margin-top: 20px;
+    border-right: 1px solid #6c757d;
+}
+
+.add-schedule {
+    background-color: #f0f0f0;
+    margin-left: 30px;
+    width: 80%;
+    border-radius: 15px;
+    height: 165px;
+}
+
+.add-schedule-content img {
+    width: 60px;
+}
+
+.add-buttons {
+    background-color: #f0f0f0;
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.schedule-product-btn {
+    background-color: #9a23fc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    height: 38px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    width: 60%;
+    transition: transform 0.3s ease;
+}
+
+.schedule-product-btn:active {
+    transform: scale(0.95);
+    background-color: #4A0084;
+}
+
+.publish-product-btn {
+    background-color: #9a23fc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    height: 48px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    width: 50%;
+    transition: transform 0.3s ease;
+}
+
+.publish-product-btn:active {
+    transform: scale(0.95);
+    background-color: #4A0084;
+}
+
+.preview-product-btn {
+    background-color: #fff;
+    color: #303030;
+    padding: 10px 20px;
+    border: 1px solid #030303;
+    border-radius: 15px;
+    height: 48px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    width: 80%;
+    transition: transform 0.3s ease;
+}
+
+.preview-product-btn:active {
+    transform: scale(0.95);
+    background-color: #5f5f5f;
+}
+
+.cancel-product-btn {
+    background-color: #f33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    height: 48px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    width: 50%;
+    transition: transform 0.3s ease;
+    border: none;
+}
+
+.cancel-product-btn:active {
+    transform: scale(0.95);
+    background-color: #5f5f5f;
+}
+
+@media screen and (max-width: 1294px) {
+    .add-form {
+        width: 96.9%;
+    }
+
+    .add-schedule {
+        margin-left: 20px;
+    }
+
+    .add-schedule-and-button {
+        display: flex;
+        width: 100%;
+    }
+
+    .add-buttons {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .add-form {
+        width: 94%;
+    }
+
+    .add-form-row {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .add-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .add-title {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .add-main-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .add-form {
+        margin-left: 0;
+    }
+
+    .add-schedule-and-button {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 96.5%;
+        padding-left: 0;
+    }
+
+    .add-schedule {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .add-buttons {
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    #main {
+        height: auto;
+    }
+}
