@@ -21,3 +21,5 @@ Harus sign up terlebih dahulu
 Route:
 'customer/signup'
 'customer/login'
+
+4. Ketika project sudah berhasil dijalankan, jangan lupa untuk mengisi informasi delivery, courier, dan payment di tab profile adminside agar transaction di customerside bisa dilakukan.
