@@ -1,21 +1,23 @@
 Note:
 
-1. Untuk image products bisa didapat dari link berikut ini:
-https://drive.google.com/file/d/1IIbugjDoCvDeQT0PKZW6Lk7NAr_2THUk/view?usp=sharing
-Lalu folder products bisa di copy paste saja ke dalam storage/app/public dan jangan lupa untuk memberikan shortcut dari folder storage ke folder public karena terkadang walaupun sudah di php artisan storage:link tetap tidak terbuat shortcut nya sehingga menyebabkan error.
+1. Lakukan composer install dan php artisan storage:link
 
-2. Pertama kali menjalankan project php artisan serve, akan secara default diarahkan ke homepage, jadi bisa langsung secara manual untuk mengetik route url /login agar bisa login terlebih dahulu agar seluruh fungsionalitas bisa dijalankan bagi adminside.
+2. Untuk image products bisa didapat dari link berikut ini:
+https://drive.google.com/file/d/1IIbugjDoCvDeQT0PKZW6Lk7NAr_2THUk/view?usp=sharing
+Lalu folder products bisa di copy paste saja ke dalam storage/app/public. Jika shortcut storage tidak muncul walaupun sudah menjalankan command php artisan storage:link, maka bisa lakukan manual saja untuk membuat shortcut dari folder storage, lalu copy paste ke dalam folder public.
+
+3. Pertama kali menjalankan project php artisan serve, akan secara default diarahkan ke homepage, jadi bisa langsung secara manual untuk mengetik route url '/login' agar bisa login terlebih dahulu agar seluruh fungsionalitas bisa dijalankan bagi adminside.
 
 Admin Side
 Default email: admin@mail.com
 Default password: @Admin23
 
 Route:
-/login
+'/login'
 
 Customer Side
 Harus sign up terlebih dahulu
 
 Route:
-customer/signup
-customer/login
+'customer/signup'
+'customer/login'
