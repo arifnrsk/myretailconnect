@@ -1,0 +1,15 @@
+Pertama kali menjalankan project php artisan serve, akan secara default diarahkan ke homepage, jadi bisa langsung secara manual untuk mengetik route url /login agar bisa login terlebih dahulu agar seluruh fungsionalitas bisa dijalankan bagi adminside.
+
+Admin Side
+Default email: admin@mail.com
+Default password: @Admin23
+
+Route:
+/login
+
+Customer Side
+Harus sign up terlebih dahulu
+
+Route:
+customer/signup
+customer/login
