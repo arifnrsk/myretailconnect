@@ -1,6 +1,6 @@
 Note:
 
-1. Lakukan composer install dan php artisan storage:link
+1. Lakukan composer install, php artisan storage:link, dan php artisan migrate --seed (default database name 'myretailconnect_coba_2'.
 
 2. Untuk image products bisa didapat dari link berikut ini:
 https://drive.google.com/file/d/1IIbugjDoCvDeQT0PKZW6Lk7NAr_2THUk/view?usp=sharing
